@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+    .services_vitrine{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #services_produit{
+        width: auto;
+        margin: auto;
+    }
+
+    
+}

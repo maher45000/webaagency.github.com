@@ -1,0 +1,91 @@
+@media (max-width: 575.98px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+   .slider{
+       height: 265px;
+   }
+   
+   .slogan{
+       left: auto;
+       top: 0px;
+       text-align: center;
+       width: 67%;
+       font-size: 12px;
+   }
+
+   #bouton_droite{
+       display: none;
+   }
+
+   #bouton_gauche{
+       display: none;
+   }
+
+   .barre{
+       display: none;
+   }
+
+   .body{
+       width: auto;
+   }
+
+   .services{
+       padding-top: 0px;
+   }
+
+
+   .image_pc{
+       width: 300px;
+   }
+
+   .services_competences{
+       width: 100%
+       ;
+   }
+
+   .projets nav li {
+       padding: 10px 5px;
+   }
+
+    .projets .activ::before, .projets li:hover::before, .projets li:active::before{
+        content: none;
+    }
+
+    .contact form{
+        right: 10px;
+    }
+    
+    .services_row{
+        justify-content: center;
+        display: flex;
+        width: auto;
+    }
+
+    .services_vitrine{
+        margin-right: 0px;
+    }
+
+    .bouton{
+        padding: 5px 5px;
+    }
+
+    .logo{
+        padding-top: 10px;
+    }
+
+    nav li:hover{
+        border-top: none;
+    }
+
+    h2{
+        font-size: 33px;
+    }
+
+    .accroche{
+        font-size: 13px;
+    }
+}
